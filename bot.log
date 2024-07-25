@@ -1,0 +1,279 @@
+
+2024-07-24 02:02:59,387 [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj' for image https://64.media.tumblr.com/2f91b0f6ceeb3e755f32a15eeda04a1d/a911522ee6105606-1b/s540x810/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj'
+
+2024-07-24 02:02:59,390 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 188, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 78, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-24 08:12:40,600 [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj' for image https://64.media.tumblr.com/2f91b0f6ceeb3e755f32a15eeda04a1d/a911522ee6105606-1b/s540x810/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj'
+
+2024-07-24 08:12:40,602 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5f023c7c00a416ee30388f4a2e717d02b6fb01b0.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 188, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 78, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:40:40,567 [Errno 2] No such file or directory: 'temp-imgs/164a578aa15c9edbe2fd668e9174fef269da4912.pnj' for image https://64.media.tumblr.com/a352056eb31b320ce9e413671110627d/5f4e90fa7224ddb4-07/s540x810/164a578aa15c9edbe2fd668e9174fef269da4912.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/164a578aa15c9edbe2fd668e9174fef269da4912.pnj'
+
+2024-07-25 20:40:40,567 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/164a578aa15c9edbe2fd668e9174fef269da4912.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 188, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 78, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:41:11,472 [Errno 2] No such file or directory: 'temp-imgs/9a77c0e502805f4bfe85cb5e8f2a21753db94ccd.pnj' for image https://64.media.tumblr.com/0977253ba1cdfb309f4b6e2f7c5b001a/26fb531193a518f7-c0/s540x810/9a77c0e502805f4bfe85cb5e8f2a21753db94ccd.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/9a77c0e502805f4bfe85cb5e8f2a21753db94ccd.pnj'
+
+2024-07-25 20:41:11,472 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 69, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/9a77c0e502805f4bfe85cb5e8f2a21753db94ccd.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 188, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 78, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:44:05,533 [Errno 2] No such file or directory: 'temp-imgs/5a853c6a363e72b3ea12d8a6a47688a3c5d2f29d.pnj' for image https://64.media.tumblr.com/5fe4ae3e48fa4681b31932b827e6e382/a911522ee6105606-d6/s640x960/5a853c6a363e72b3ea12d8a6a47688a3c5d2f29d.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5a853c6a363e72b3ea12d8a6a47688a3c5d2f29d.pnj'
+
+2024-07-25 20:44:05,533 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/5a853c6a363e72b3ea12d8a6a47688a3c5d2f29d.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 189, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:44:36,645 [Errno 2] No such file or directory: 'temp-imgs/a9e24d2eb0af9531d4b4a709bfec325f8da16a2d.pnj' for image https://64.media.tumblr.com/172b4428ec7eac0a4a1546cfe460a694/aa446a186366945c-31/s640x960/a9e24d2eb0af9531d4b4a709bfec325f8da16a2d.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/a9e24d2eb0af9531d4b4a709bfec325f8da16a2d.pnj'
+
+2024-07-25 20:44:36,661 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/a9e24d2eb0af9531d4b4a709bfec325f8da16a2d.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 189, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:45:11,300 [Errno 2] No such file or directory: 'temp-imgs/d49160eee4c496fe2fa6081373018447c0a9f9f2.pnj' for image https://64.media.tumblr.com/4e193b621291bdb93ef3f30782c5cb7f/26fb531193a518f7-1d/s540x810/d49160eee4c496fe2fa6081373018447c0a9f9f2.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/d49160eee4c496fe2fa6081373018447c0a9f9f2.pnj'
+
+2024-07-25 20:45:11,300 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/d49160eee4c496fe2fa6081373018447c0a9f9f2.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 189, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:45:42,200 [Errno 2] No such file or directory: 'temp-imgs/83027aba3912f205e5241386145ee29fff6a15cc.pnj' for image https://64.media.tumblr.com/cb5cffcfa314f5b9374ab7637d952288/a911522ee6105606-21/s640x960/83027aba3912f205e5241386145ee29fff6a15cc.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/83027aba3912f205e5241386145ee29fff6a15cc.pnj'
+
+2024-07-25 20:45:42,200 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/83027aba3912f205e5241386145ee29fff6a15cc.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 189, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-25 20:48:20,424 [Errno 2] No such file or directory: 'temp-imgs/2f475e19aa92d0ab2ab43b6ffb58ba9b96bd1111.pnj' for image https://64.media.tumblr.com/84dce633c2af3ac916a15c9395d72c44/3aa8e1f08d51024e-20/s640x960/2f475e19aa92d0ab2ab43b6ffb58ba9b96bd1111.pnj
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/2f475e19aa92d0ab2ab43b6ffb58ba9b96bd1111.pnj'
+
+2024-07-25 20:48:20,424 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 70, in get_imgs
+    with open (filepath, 'wb') as image:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/2f475e19aa92d0ab2ab43b6ffb58ba9b96bd1111.pnj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 189, in main
+    media_ids = get_imgs(api_v1,imgs)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hesha\OneDrive\”ÿÕ «·„ﬂ »\twitter_bot\main.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\site-packages\tweepy\api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hesha\AppData\Local\Programs\Python\Python312\Lib\imghdr.py", line 22, in what
+    f = open(file, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
